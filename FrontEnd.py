@@ -9,7 +9,7 @@ class App(customtkinter.CTk):
         self.minsize(400, 300)
         self.geometry('700x650')
         customtkinter.set_appearance_mode('dark')
-        self.janela1 = customtkinter.CTkFrame(master=self, width=650, height=600, corner_radius=15,fg_color='#2E5859')
+        self.janela1 = customtkinter.CTkFrame(master=self, width=650, height=600, corner_radius=15,fg_color='#245943')
         self.janela1.place(relx=0.5, rely=0.5, anchor=tkinter.CENTER)
         self.texto1 = customtkinter.CTkLabel(
             master=self.janela1,
@@ -17,9 +17,9 @@ class App(customtkinter.CTk):
             font=('Arial', 60),
             width=90,
             height=35,
-            text_color='#D2F1F2',
+            text_color='#9CDFC3',
         )
         self.texto1.place(x=115, y=90)
 
-        
+
 
