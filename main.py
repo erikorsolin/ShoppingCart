@@ -1,7 +1,8 @@
 from FrontEnd import *
-from carrinho import Carrinho
+from cart import Cart
 
 
 app = App()
+
 app.mainloop()
 
