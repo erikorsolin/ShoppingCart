@@ -12,7 +12,7 @@ class App(customtkinter.CTk):
         self.geometry('700x650')
         self.window1 = customtkinter.CTkFrame(master=self, width=650, height=600, corner_radius=15)
         self.window1.place(relx=0.5, rely=0.5, anchor=tkinter.CENTER)
-        self.window2 = customtkinter.CTkFrame(master=self.window1, width=350, height=300, corner_radius=15, fg_color='#616178')
+        self.window2 = customtkinter.CTkFrame(master=self.window1, width=350, height=300, corner_radius=20, fg_color='#333333')
         self.window2.place(x=135, y=200)
         self.text1 = customtkinter.CTkLabel(
             master=self.window1,
@@ -20,7 +20,7 @@ class App(customtkinter.CTk):
             font=('Arial', 60),
             width=90,
             height=35,
-           
+            text_color='#3855A6'     
         )
         self.text1.place(x=115, y=90)
 
@@ -63,7 +63,6 @@ class App(customtkinter.CTk):
             command=self.buttom_click
         )
         self.buttom1.place(x=95, y=180)
-
 
 
     def buttom_click(self):
