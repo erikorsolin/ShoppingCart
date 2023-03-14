@@ -34,25 +34,25 @@ class App(customtkinter.CTk):
             corner_radius=10,
             fg_color='#C9D6FF',
             text_color='black',
-            width=140
+            width=160
         )
-        self.entry1.place(x=240, y=300)
+        self.entry1.place(x=230, y=300)
 
         self.entry2 = customtkinter.CTkEntry(
             master=self.window1,
             corner_radius=10,
             fg_color='#C9D6FF',
             text_color='black',
-            width=140
+            width=160
         )
-        self.entry2.place(x=240, y=330 )
+        self.entry2.place(x=230, y=330 )
 
         self.buttom1 = customtkinter.CTkButton(
             master=self.window1,
-            width=80,
+            width=120,
             corner_radius=10,
-            fg_color='#3E4E80',
-            text='create a new account',
+            fg_color='#C9D6FF',
+            text='entrar',
             text_color='black'
         )
-        self.buttom1.place(x=240, y=380)       
+        self.buttom1.place(x=250, y=370)       
